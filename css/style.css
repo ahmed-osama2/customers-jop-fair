@@ -1,0 +1,39 @@
+.input-group>.form-floating:not(:first-child)>.form-control {
+    border-radius: 5px;
+}
+
+td,
+th {
+    border: 1px solid black;
+    height: 50px;
+}
+
+.my-btn {
+    background-color: #3252dfda;
+}
+
+.my-btn:hover {
+    background-color: white;
+    transition: all .5s;
+    color: #3252dfda;
+    border: 1px solid #3252dfda;
+}
+
+
+
+
+
+/* dark mode / light mode  */
+body {
+    transition: background-color 0.3s ease;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.light-mode {
+    background-color: #fff;
+    color: #333;
+}

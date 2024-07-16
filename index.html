@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>customers</title>
+  <!-- font -->
+
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./imge/customer-.jpg " type="image/x-icon">
+
+  <!--bootstrab  -->
+
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+  <!-- fontawesome -->
+
+  <link rel="stylesheet" href="./css/all.min.css">
+
+  <!-- my style -->
+
+  <link rel="stylesheet" href="./css/media.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar bg-primary position-fixed w-100 z-3">
+      <div class="container">
+        <div>
+          <img class="w-25 rounded-5"  src="./imge/customer-.jpg" alt="">
+        </div>
+          
+          <div class="text-center mb-3">
+            <button id="darkModeBtn" class="btn btn-dark"><i class="fa-solid fa-moon"></i></button>
+            <button id="lightModeBtn" class="btn btn-light"><i class="text-warning fa-regular fa-sun"></i></button>
+          </div>
+         
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+
+  <div class="container py-5">
+    <div class="row ">
+      <div class="col-md-6">
+        <div class="input-group my-5 mx-2">
+          <span class="input-group-text bg-primary "><i class="fa-solid fa-search"></i></span>
+          <div class="form-floating ">
+            <input type="text" class="form-control my-serch" id="floatingInputGroup1" placeholder="Username">
+            <label for="floatingInputGroup1" class="text-primary ">seresh by name</label>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="input-group my-5 mx-2 ">
+          <span class="input-group-text bg-primary "><i class="fa-solid fa-search"></i></span>
+          <div class="form-floating ">
+            <input type="text" class="form-control my-number" id="floatingInputGroup1" placeholder="Username">
+            <label for="floatingInputGroup1" class="text-primary" >seresh by total</label>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <div>
+      <!-- On tables -->
+      <table class="  table table-striped text-center ">
+
+        <tbody class="my-row">
+          <thead>
+            <th class=" bg-primary text-white px-5">
+              <h2>Name </h2>
+            </th>
+            <th class=" bg-primary text-white">
+              <h2>Total Transaction Amount </h2>
+            </th>
+            <th class=" bg-primary text-white ">
+              <h2>Transactions per day</h2>
+
+            </th>
+          </thead>
+
+
+
+          <!-- <tr>
+              <td>hamada</td>
+              <td>hamada</td>
+              <td><button class="btn my-btn">View</button></td>
+
+            </tr> -->
+
+
+        </tbody>
+      </table>
+
+      <h2 class="text-center my-vip">Please click on View to show transactions graph.</h2>
+
+    </div>
+
+    <div class="my-charts">
+      <!-- <canvas id="myChart" class="w-75 m-auto"></canvas> -->
+    </div>
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- **********js******** -->
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/main.js"></script>
+
+</body>
+
+
+</html>
